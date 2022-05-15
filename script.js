@@ -1,26 +1,24 @@
 "use strict";
 
-console.log('arr' + " - object");
-console.log(4 + "5");
+const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
-let incr = 10,
-    decr = 10;
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    geners: [],
+    privat: false
+};
 
-//++incr;
-//--decr;
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
 
-console.log(++incr);
-console.log(--decr);
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-console.log(5%2);
-
-console.log(2 + 2 * 2 !== '6');
-
-
-const isChecked = false,
-      isClose = false;
-
-console.log(isChecked || !isClose);
+console.log(personalMovieDB);
 
 /*
 const storeName = 'Bookshop';
@@ -43,9 +41,3 @@ const storeDescription = {
 // UPPER_SNAKE_CASE
 // Kebab-case
 // PascalCase
-
-const COLOR_RED = '#F00'; /* не нужно менять значение константы */
-
-const _apiBase = 'https://football.ua/';
-// ЗДЕСЬ БУДЕТ КЛЮЧ. ЭТОТ КЛЮЧ МОЖЕТ НЕ РАБОТАТЬ
-const _apiKey = 'apikey=930r9049039403';
