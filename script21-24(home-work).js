@@ -123,6 +123,8 @@ let i = 2;
     //        console.log(i);
     //    }
     //}
+
+    
 /* 5  Заполнить массив цифрами от 5 до 10 включительно */
 
 //const arr = [1, 2, 3, 4, 5];
@@ -201,7 +203,7 @@ function thirdTask() {
     const result = [];
 
     for (let i = 1; i <= data.length; i++) {
-        result[i - 1] = data[data.length - i]
+        result[i - 1] = data[data.length - i];
     }
 
     console.log(result);
