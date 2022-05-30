@@ -174,7 +174,18 @@ const storeDescription = {
     open: true
 };
 */
+const arr = ['a', 'b', 'c'];/* Массив */
+const arrObj = {            /* Обьект */
+    a: 'a',
+    '1': 'b',
+    2: 'c'
+};
 
+//arrObj.b = '1234'; /* Добавляем новый элемент в обьект */
+arrObj['b'] = '1234'; /* Квадратные скобки [] использовать приоритетнее */
+
+console.log(arrObj['b']);
+//console.log(arrObj.b);
 
 
 
