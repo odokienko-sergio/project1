@@ -1,3 +1,5 @@
+
+/* Урок 23 д */
 "use strict";
 for (let i = 0; i < 3; i++) {
     console.log(i);
@@ -22,7 +24,7 @@ for (let i = 1; i < length; i++) {
         result += "*";
     }
 
-    result += '\n';
+    result += '\n';   /* перенос строки */
 }
 console.log(result);
 
@@ -37,10 +39,10 @@ first: for (let i = 0; i < 3; i++) {
         }
     }
 }
+/* End */
 
 
-
-
+/** Урок 22 Цикли */
 
 //let num = 50;
 
@@ -62,6 +64,9 @@ first: for (let i = 0; i < 3; i++) {
 //    }
 //    console.log(i);
 //}
+/* End */
+
+
 
 /* Home Work #1 верно*/
 let num = 5;

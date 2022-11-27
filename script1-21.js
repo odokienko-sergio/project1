@@ -1,8 +1,47 @@
 "use strict";
-
+/* урок 9 */
 //const hamburger = 5;
 //const fries = 0;
 
+/** Урок 10 */
+// snake_case
+// UPPER_SNAKE_CASE
+// Kebab-case
+// PascalCase
+
+/** УРок 11 */
+const arr = ['a', 'b', 'c'];/* Массив */
+const arrObj = {            /* Обьект */
+    a: 'a',
+    '1': 'b',
+    2: 'c'
+};
+/*енд */
+
+/** УРок 12 д */
+//arrObj.b = '1234'; /* Добавляем новый элемент в обьект */
+arrObj['b'] = '1234'; /* Квадратные скобки [] использовать приоритетнее */
+
+console.log(arrObj['b']);
+//console.log(arrObj.b);
+/*енд */
+
+/* УРок 12 home work*/
+const storeName = 'Bookshop';
+
+const storeDescription = {
+    budget: 10000,
+    employees: ["Johny", "Jim", "Jack"],
+    products: {
+        book: 300,
+        vinyl: 450
+    },
+    open: true
+};
+
+ 
+
+/*  Урок 21 д */
 //if (hamburger && fries) {
 //    console.log('Я сыт!');
 //}
@@ -27,14 +66,15 @@ console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
 
 
 
-let johnReport, alexReport, samReport, ariaReport = 'done';
+let johnReport, alexReport, samReport, mariaReport = 'done';
 
-console.log(johnReport || alexReport || samReport || ariaReport);
+console.log(johnReport || alexReport || samReport || mariaReport);
 
 console.log(!0);/* возвращает противоположное значение */
 //console.log(hamburger === 3 && cola && fries);
 
-/*Home work*/
+
+/*  Урок 21 д Home work */
  
 console.log( NaN || 2 || undefined );/* 2 - первое правдивое */
  
@@ -96,7 +136,7 @@ if (hamburger === 3 && cola === 1 && fries) {
 }
 
 
-/*-----------------------------*/
+/*---------урок 19 - 1-------------*/
 const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
 const personalMovieDB = {
@@ -116,15 +156,17 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
-/*--------------------------------*/
+/*--------Урок 20-------------------*/
 if (3) {
     console.log('Ok!');
 } else {
     console.log('Error');
 }
 
+ 
+/* Урок 20
 
-/*const num = 50;
+const num = 50;
 
 if (num < 49) {
     console.log('Error');
@@ -161,35 +203,4 @@ switch (num) {
 
 
 
-/*
-const storeName = 'Bookshop';
 
-const storeDescription = {
-    budget: 10000,
-    employees: ["Johny", "Jim", "Jack"],
-    products: {
-        book: 300,
-        vinyl: 450
-    },
-    open: true
-};
-*/
-const arr = ['a', 'b', 'c'];/* Массив */
-const arrObj = {            /* Обьект */
-    a: 'a',
-    '1': 'b',
-    2: 'c'
-};
-
-//arrObj.b = '1234'; /* Добавляем новый элемент в обьект */
-arrObj['b'] = '1234'; /* Квадратные скобки [] использовать приоритетнее */
-
-console.log(arrObj['b']);
-//console.log(arrObj.b);
-
-
-
-// snake_case
-// UPPER_SNAKE_CASE
-// Kebab-case
-// PascalCase
